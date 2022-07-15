@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <form action="http://google.co.in">
+        <div align="center">
+          <h1>Survey Form</h1>
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="fname" size=35 maxlength=50 value=""> 
+          </br></br>
+          <label for="school">School</label>
+          <input type="text" id="school" name="school" size=35 maxlength=50 value="">
+          </br></br>
+          <label for="comment">Tell something about your life in school:</label>
+          <textarea id="comment" name="comment" columns=35 row=5></textarea>
+          </br></br> 
+           <label for="choice">Do you read books on your free time?</label>
+           <input id="choice" type="radio" name="choice" value=1>Yes
+           <input id="choice" type="radio" name="choice" value=2>No 
+        </br></br>
+           <label for="check">What genre is your favorite?</label>
+           <input id="check" type="checkbox" name="Romance">Romance
+           <input id="check" type="checkbox" name="Sci-Fi">Sci-Fi
+           <input id="check" type="checkbox" name="Classics">Classics
+           <input id="check" type="checkbox" name="Action and Adventure">Action and Adventure
+        </br></br>
+        <label for="select">Where do you get your book from?</label>
+       <select name"resource"><option>
+        <option value=1 selected="true">Library
+        <option value=2>E-book
+        <option value=3>Bookstore
+        <option value=4>Op Shop            
+       </option>
+       </select>
+    </br></br>
+    <label for="submission"></label>
+    <input type="submit" value="Submit Form"
+    </div>
+    </form>
+    </body>
+    </html>
